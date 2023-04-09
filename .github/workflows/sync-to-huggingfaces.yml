@@ -3,6 +3,8 @@ on:
   push:
     branches: [milestone-2]
 
+  # to run this workflow manually from the Actions tab
+  workflow_dispatch:
 
 jobs:
   sync-to-hub:
